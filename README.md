@@ -26,8 +26,6 @@ GitHub	Version control and collaboration
 Check out the live API documentation and test it with the  Postman.
 
 📂 Project Structure
-bash
-Copy code
 src/
 ├── main/
 │   ├── java/
