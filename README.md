@@ -1,29 +1,32 @@
-📚 Library Management System (Microservices)
+# 📚 Library Management System (Microservices)
 
 A modern microservices-based library system built with Spring Boot and MySQL.
 
-🌟 Features
-Add, delete, update, and search books.
-Retrieve books by title or fetch all books in the library.
-Built using microservices architecture with:
-Controller: Handles API requests.
-Service: Implements business logic.
-Repository: Manages database operations.
-RESTful API supporting CRUD operations (POST, GET, PUT, DELETE).
-Uses POJO design pattern for entity modeling.
-Fully documented and tested APIs for smooth interaction.
+## 🌟 Features
+- Add, delete, update, and search books.
+- Retrieve books by title or fetch all books in the library.
+- Built using microservices architecture with:
+  - **Controller**: Handles API requests.
+  - **Service**: Implements business logic.
+  - **Repository**: Manages database operations.
+- RESTful API supporting CRUD operations (POST, GET, PUT, DELETE).
+- Uses POJO design pattern for entity modeling.
+- Fully documented and tested APIs for smooth interaction.
 
-🛠️ Tech Stack
-Technology	Purpose
-Java	Core programming language
-Spring Boot	Backend framework for microservices
-MySQL	Database for storing library data
-Maven	Build automation and dependency management
-Postman	API testing
-GitHub	Version control and collaboration
+## 🛠️ Tech Stack
+| Technology | Purpose |
+|------------|---------|
+| **Java**   | Core programming language |
+| **Spring Boot** | Backend framework for microservices |
+| **MySQL**  | Database for storing library data |
+| **Maven**  | Build automation and dependency management |
+| **Postman** | API testing |
+| **GitHub** | Version control and collaboration |
 
-🚀 Demo
-Check out the live API documentation and test it with the  Postman.
+## 🚀 Demo
+Check out the live API documentation and test it with Postman.
+
+## 📂 Project Structure
 
 📂 Project Structure
 src/
@@ -39,10 +42,10 @@ src/
 │   └── resources/
 └── ├── application.properties # Database config
        
-📖 API Documentation
-1. Add a Book
+##📖 API Documentation
+1.** Add a Book**
 Endpoint:
-Request:
+**Request:**
  type : POST
  url  : lolcalhost:8008/addBook
  Header :
@@ -53,13 +56,13 @@ json
     "author": "abc",
     "available": true/false
 }
-Response:
+**Response:**
 json
 "message":"Success/Failed"
 
-2. update Book
+2. **update Book**
 Endpoint:
-Request:
+**Request:**
  type : PUT
  url  : lolcalhost:8008/updateBook
  Header :
@@ -70,26 +73,26 @@ json
     "author": "abc",
     "available": true/false
 }
-Response:
+**Response:**
 json
 "message":"Success/Failed"
 
-3. Delete Book
+3. **Delete Book**
 Endpoint:
-Request:
+**Request:**
  type : DELETE
  url  : lolcalhost:8008/deleteBook/id=?
 
-Response:
+**Response:**
 json
 "message":"Success/Failed"
 
-4. Get All Books
+4.** Get All Books**
 Endpoint:
-Request :
+**Request :**
 type :GET
 url  : lolcalhost:8008/findAllBook
-Response:
+**Response:**
 json
 [
   {
@@ -100,7 +103,7 @@ json
   }
 ]
 
-5. Get BookById
+5. **Get BookById**
 Endpoint:
 Request :
 type :GET
@@ -116,7 +119,7 @@ json
   }
 ]
 
-6. Get BookByTittle
+6.** Get BookByTittle**
 Endpoint:
 Request :
 type :GET
@@ -132,7 +135,7 @@ json
   }
 ]
 
-📊 Database Schema
+📊 **Database Schema**
 sql
 Copy code
 CREATE TABLE book (
@@ -142,7 +145,7 @@ CREATE TABLE book (
     is_available BOOLEAN
 );
 
-🤝 Contributing
+**🤝 Contributing**
 Contributions are welcome!
 To contribute:
 Fork this repository.
@@ -151,14 +154,14 @@ Commit your changes (git commit -m "Add feature").
 Push to the branch (git push origin feature-name).
 Create a pull request.
 
-💡 Inspiration
+💡** Inspiration**
 This project was created to demonstrate expertise in:
 Microservices architecture
 Database design and management
 REST API development
 Java programming with Spring Boot
 
-📞 Contact
+**📞 Contact**
 Email: ritikbankhede0731@gmail.com
 GitHub: your-Ritik Bankhede
 
